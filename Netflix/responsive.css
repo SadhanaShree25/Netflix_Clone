@@ -1,0 +1,751 @@
+    @media only screen and (max-width: 768px) {
+        * {
+            box-sizing: border-box;
+        }
+
+        .hero-section {
+            width: 100%;
+            height: 50vh;
+        }
+
+        header.head {
+            justify-content: flex-start;
+            justify-content: space-between;
+        }
+
+        .head {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px 0px 10px;
+        }
+
+        .logo img {
+            height: 3.4rem;
+            width: auto;
+            margin: 7px 0px 0px 0px;
+        }
+
+        .drpdwn {
+            height: 1.8rem;
+            width: 4rem;
+        }
+
+        .signin-btn {
+            height: 1.9rem;
+            width: 4rem;
+            font-size: 0.9rem;
+            padding: 0px 0px 3px 0px;
+        }
+
+        .content {
+            margin: 60px 10px 0px 10px;
+            padding: 0px 10px;
+        }
+
+        .tagline {
+            font-size: 1.9rem;
+            text-align: center;
+        }
+
+        .paraline1 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .paraline2 {
+            font-size: 1rem;
+            margin-top: 10px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .email-input {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .email {
+            width: 20rem;
+            height: 3.2rem;
+            padding: 5px 0px 0px 20px;
+        }
+
+        .email::placeholder {
+            color: rgba(255, 255, 255, 0.61);
+            margin-right: 55px;
+            font-size: 1.1rem;
+        }
+
+        .email:focus {
+            background-color: rgba(0, 255, 255, 0.205);
+        }
+
+        .get-strt-btn {
+            width: 9.2rem;
+            height: 3.2rem;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .separator {
+            margin: -2px 0px 0px 0px;
+        }
+
+        .main-section {
+            height: 100%;
+            width: 100%;
+            padding: 0px 10px;
+            margin: auto;
+        }
+
+        .trending-now {
+            overflow: hidden;
+            margin: 0px 20px 0px 0px;
+        }
+
+        .trending-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: -20px 0px 25px -70px;
+        }
+
+        .card-gallery {
+            margin: 5px 10px 0px -70px;
+            gap: 20px;
+        }
+
+        .images img {
+            height: 10rem;
+            width: auto;
+            ;
+        }
+
+        span {
+            margin: 60px 125px 0px 20px;
+            font-size: 4rem;
+        }
+
+        .features {
+            margin: auto;
+        }
+
+        .reason-heading {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 20px 0px 25px 22px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: auto;
+            gap: 0rem;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .card-content {
+             width: calc(50% - 3rem);
+             height: 15rem; 
+            
+        }
+
+        .Vectors1
+        {
+            margin: 0rem 0rem 0rem 8rem;
+        }
+        .Vectors2 {
+            margin: -1rem 0rem 0rem 8rem;
+        }   
+        .Vectors3 {
+            margin: 0rem 0rem 0rem 8rem;
+        }
+        .Vectors4 {
+            margin: -1.2rem 0rem 0rem 8rem;
+        }
+            
+
+        .plans {
+            width: 100%;
+            height: 100%;
+            padding: 0px 10px;
+            background-color: rgb(0, 0, 0);
+            margin: -40px 0px 0px 0px;
+        }
+
+        .plans-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 20px 0px 25px 23px;
+        }
+
+        .plans-container {
+            margin: -2rem 0px 0px 1rem;
+            height: auto;
+            width: 95%;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .planCard1,
+        .planCard2,
+        .planCard3,
+        .planCard4 {
+            width: 10rem;
+            height: 12rem;
+            padding: 10px 0px 0px 0px;
+        }
+
+        .planCard1 h3,
+        .planCard2 h3,
+        .planCard3 h3,
+        .planCard4 h3 {
+            font-size: 1.5rem;
+            margin-left: 1rem;
+            font-weight: 600;
+            margin: -0.5rem 0rem 0rem 0rem;
+            text-align: center;
+        }
+
+        .plan-feature-text {
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .plan-price-text {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: auto;
+        }
+
+
+        .faq-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 0px 0px 25px 23px;
+        }
+
+        .faq-container-question {
+            width: 90%;
+            height: 4rem;
+        }
+
+        .faq-paragraph {
+            font-size: 1.1rem;
+            margin-left: -1.5rem;
+        }
+
+        .cross {
+            height: 2rem;
+        }
+
+        .faq-container-answer {
+            width: 90%;
+            height: auto;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
+        .sub-footer {
+            flex-direction: column;
+        }
+
+        .sub-footer-tagline {
+            padding: 45px 0px 0px 0px;
+            margin: 0px 10px 0px 20px;
+            font-size: 1.1rem;
+        }
+
+        .sub-footer-content {
+            flex-direction: column;
+        }
+
+        .sub-footer-content input {
+            margin: 0px 15px 0px 20px;
+            width: 22.2rem;
+            height: 3.2rem;
+        }
+
+        .sub-footer-button {
+            margin-left: -11.6rem;
+            height: 3.3rem;
+            width: 10rem;
+            font-size: 1.3rem;
+        }
+
+        /* Footer responsive styles */
+        .footer {
+            margin: 0;
+            padding-bottom: 100px;
+        }
+
+        .footer-text {
+            margin: 0 1rem 0 1.9rem;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            text-align: left;
+        }
+
+        .footer-links {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 0 14rem 0rem 0.5rem;
+            gap: 0rem;
+            /* Remove extra gap if any */
+        }
+
+        .footer-links-content {
+            padding: 10px 0;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-left: 2rem;
+        }
+
+        .footer-links-content li a {
+            margin-bottom: 12px;
+            font-size: 12px;
+            text-align: left;
+            justify-content: flex-start;
+            margin-right: 2rem;
+        }
+
+        .footer-language {
+            flex-direction: column;
+            margin: 5rem 1rem 0 1.9rem;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .footer-language-content {
+            height: 60vh;
+            flex-direction: column;
+        }
+
+        .drpdwn-bottom {
+            height: 2.3rem;
+            width: 8rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            background-color: transparent;
+            color: white;
+        }
+
+        .drpdwn-bottom option {
+            color: black;
+        }
+
+        .netflix-IND {
+            margin: 3rem 8rem 0px 0px;
+            font-size: 14px;
+            text-align: left;
+            margin-left: 1.5rem;
+            padding: 4rem -20rem 20rem -20rem;
+        }
+
+        .footer-paragraph {
+            margin: 2rem 0rem 0rem 1.5rem;
+        }
+    }
+
+/*Responsive Queries*/
+    @media only screen and (max-width: 480px) {
+        * {
+            box-sizing: border-box;
+        }
+
+        .hero-section {
+            width: 100%;
+            height: 65vh;
+        }
+
+        header.head {
+            justify-content: flex-start;
+            justify-content: space-between;
+        }
+
+        .head {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px 0px 10px;
+        }
+
+        .logo img {
+            height: 3.4rem;
+            width: auto;
+            margin: 7px 0px 0px 0px;
+        }
+
+        .drpdwn {
+            height: 1.8rem;
+            width: 4rem;
+        }
+
+        .signin-btn {
+            height: 1.9rem;
+            width: 4rem;
+            font-size: 0.9rem;
+            padding: 0px 0px 3px 0px;
+        }
+
+        .content {
+            margin: 60px 10px 0px 10px;
+            padding: 0px 10px;
+        }
+
+        .tagline {
+            font-size: 1.9rem;
+            text-align: center;
+        }
+
+        .paraline1 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .paraline2 {
+            font-size: 1rem;
+            margin-top: 10px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .email-input {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .email {
+            width: 20rem;
+            height: 3.2rem;
+            padding: 5px 0px 0px 20px;
+        }
+
+        .email::placeholder {
+            color: rgba(255, 255, 255, 0.61);
+            margin-right: 55px;
+            font-size: 1.1rem;
+        }
+
+        .email:focus {
+            background-color: rgba(0, 255, 255, 0.205);
+        }
+
+        .get-strt-btn {
+            width: 9.2rem;
+            height: 3.2rem;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .separator {
+            margin: -2px 0px 0px 0px;
+        }
+
+        .main-section {
+            height: 100%;
+            width: 100%;
+            padding: 0px 10px;
+            margin: auto;
+        }
+
+        .trending-now {
+            overflow: hidden;
+            margin: 0px 20px 0px 0px;
+        }
+
+        .trending-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: -20px 0px 25px -70px;
+        }
+
+        .card-gallery {
+            margin: 5px 10px 0px -70px;
+            gap: 20px;
+        }
+
+        .images img {
+            height: 10rem;
+            width: auto;
+            ;
+        }
+
+        span {
+            margin: 60px 125px 0px 20px;
+            font-size: 4rem;
+        }
+
+        .features {
+            margin: auto;
+        }
+
+        .reason-heading {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 20px 0px 25px 22px;
+        }
+
+        .cards {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0rem 0rem 0rem -7rem;
+            gap: 1rem;
+        }
+
+        .card-content {
+            width: 18rem;
+            height: 10rem;
+            justify-content: center;
+            align-items: center;
+            margin: 0rem 3rem 0rem 0rem;
+            gap: 5rem;
+        }
+
+        .card-heading
+        {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: -1rem 0px 10px 0px;
+        }
+        .card-info
+        {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: -0.5rem 0px 0px 0px;
+        }
+
+
+        .Vectors1
+        {
+            margin: -0.5rem 0rem 0rem 11rem;
+        }
+                .Vectors2
+        {
+            margin: -0.5rem 0rem 0rem 11rem;
+        }
+
+                .Vectors3
+        {
+            margin: -0.5rem 0rem 0rem 11rem;
+        }
+
+                .Vectors4
+        {
+            margin: -1.5rem 0rem 0rem 11rem;
+        }
+
+
+        .plans {
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100vh;
+            padding: 0px 10px;
+            background-color: rgb(0, 0, 0);
+            margin: -1.2rem 0px 0px 0px;
+        }
+
+        .plans-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 20px 0px 25px 23px;
+        }
+
+        .plans-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: -2rem 0px 0px 1rem;   
+            cursor: pointer;
+             width: calc(50% - -9rem);
+             height: 15rem; 
+             gap: -1rem;
+
+        }
+
+        .planCard1,
+        .planCard2,
+        .planCard3,
+        .planCard4 {
+            width: 100%;
+            height: 12rem;
+            padding: 10px 0px 0px 0px;
+        }
+
+        .planCard1 h3,
+        .planCard2 h3,
+        .planCard3 h3,
+        .planCard4 h3 {
+            font-size: 1.5rem;
+            margin-left: 1rem;
+            font-weight: 600;
+            margin: -0.5rem 0rem 0rem 0rem;
+            text-align: center;
+        }
+
+        .plan-feature-text {
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .plan-price-text {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: auto;
+        }
+
+
+        .faq-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 0px 0px 25px 23px;
+        }
+
+        .faq-container-question {
+            width: 90%;
+            height: 4rem;
+        }
+
+        .faq-paragraph {
+            font-size: 1.1rem;
+            margin-left: -1.5rem;
+        }
+
+        .cross {
+            height: 2rem;
+        }
+
+        .faq-container-answer {
+            width: 90%;
+            height: auto;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
+        .sub-footer {
+            flex-direction: column;
+        }
+
+        .sub-footer-tagline {
+            padding: 45px 0px 0px 0px;
+            margin: 0px 10px 0px 20px;
+            font-size: 1.1rem;
+        }
+
+        .sub-footer-content {
+            flex-direction: column;
+        }
+
+        .sub-footer-content input {
+            margin: 0px 15px 0px 20px;
+            width: 22.2rem;
+            height: 3.2rem;
+        }
+
+        .sub-footer-button {
+            margin-left: -11.6rem;
+            height: 3.3rem;
+            width: 10rem;
+            font-size: 1.3rem;
+        }
+
+        /* Footer responsive styles */
+        .footer {
+            margin: 0;
+            padding-bottom: 100px;
+        }
+
+        .footer-text {
+            margin: 0 1rem 0 1.9rem;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            text-align: left;
+        }
+
+        .footer-links {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 0 14rem 0rem 0.5rem;
+            gap: 0rem;
+            /* Remove extra gap if any */
+        }
+
+        .footer-links-content {
+            padding: 10px 0;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-left: 2rem;
+        }
+
+        .footer-links-content li a {
+            margin-bottom: 12px;
+            font-size: 12px;
+            text-align: left;
+            justify-content: flex-start;
+            margin-right: 2rem;
+        }
+
+        .footer-language {
+            flex-direction: column;
+            margin: 5rem 1rem 0 1.9rem;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .footer-language-content {
+            height: 60vh;
+            flex-direction: column;
+        }
+
+        .drpdwn-bottom {
+            height: 2.3rem;
+            width: 8rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            background-color: transparent;
+            color: white;
+        }
+
+        .drpdwn-bottom option {
+            color: black;
+        }
+
+        .netflix-IND {
+            margin: 3rem 8rem 0px 0px;
+            font-size: 14px;
+            text-align: left;
+            margin-left: 1.5rem;
+            padding: 4rem -20rem 20rem -20rem;
+        }
+
+        .footer-paragraph {
+            margin: 2rem 0rem 0rem 1.5rem;
+        }
+    }
+
+    
